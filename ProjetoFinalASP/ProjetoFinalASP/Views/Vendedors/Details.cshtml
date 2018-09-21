@@ -1,0 +1,106 @@
+﻿@model ProjetoFinalASP.Models.Vendedor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Vendedor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Senha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NivelAcesso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NivelAcesso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UltimoAcesso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UltimoAcesso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idVendedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idVendedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeVendedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeVendedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CpfVendedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CpfVendedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataNascimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idUsuario }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
