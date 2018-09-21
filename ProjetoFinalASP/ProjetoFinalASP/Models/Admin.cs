@@ -7,5 +7,6 @@ namespace ProjetoFinalASP.Models
 {
     public class Admin : Usuario
     {
+        public int id { get; set; }
     }
 }
